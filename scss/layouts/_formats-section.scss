@@ -1,0 +1,28 @@
+.formats-section {
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+
+  &__title {
+    position: relative;
+    margin: 0 auto 24px;
+    /* max-width: 520px; */
+
+    @media screen and (min-width: $bp-desktop) {
+      margin: 80px;
+    }
+  }
+
+  &__countainer {
+    overflow: hidden;
+  }
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+    }
+  }
+}
